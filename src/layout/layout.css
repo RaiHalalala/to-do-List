@@ -1,0 +1,10 @@
+.header-app{
+  min-height: 50px;
+  background-color: rgb(222, 49, 90);
+  margin-bottom: 50px;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}

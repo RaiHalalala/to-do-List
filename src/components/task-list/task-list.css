@@ -1,0 +1,19 @@
+.item__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul.task-list{
+  padding: 10px 0px;
+ 
+}
+
+li.task-list__item{
+  padding: 10px 20px;
+  position: relative;
+}
+
+.task-list__item:hover{
+  background-color: #f2f3f4;
+}
+

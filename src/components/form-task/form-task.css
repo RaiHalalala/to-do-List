@@ -1,0 +1,50 @@
+
+
+.form{
+  display: flex;
+}
+
+div.textarea-form{
+  width: 100%;
+  height: 100%;
+}
+
+button.btn-form{
+  width: 150px; 
+  margin-left: 15px;
+  font-weight: 600;
+  color: rgba(146, 194, 161);
+  border: 2px solid rgba(146, 194, 161);
+}
+
+#dynamic-label-input {
+  width: 500px;
+  height: 100%;
+  padding: ;
+}
+
+.form-group {
+  position: relative;
+  padding-top: 0;
+ }
+
+ label {
+  position: absolute;
+  top: 0;
+  font-size: var(--font-size-small);
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.2s ease-out;
+  }
+  
+  textarea:placeholder-shown + label {
+  opacity: 0;
+  transform: translateY(1rem);
+  }
+
+  .form-task{
+    padding: 0 20px;
+  }
+
+
+
