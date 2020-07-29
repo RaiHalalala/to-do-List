@@ -67,16 +67,15 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-### запуск проекта 
+### установка пакетов node_modules
 
-npm start
+npm install ws
 
 ### установка JSON Server
 
 npm install -g json-server 
-json-server --watch info.json
-json-server info.json --port 3005
+json-server --watch info.json --port 3005
 
-### всех пакетов
+### запуск приложения 
 
-npm install
+npm start
